@@ -1,0 +1,63 @@
+@media (max-width: 75rem) {
+  html{
+    font-size: 50.25%;
+  }
+}
+@media (max-width: 56.25rem) {
+  html{
+    font-size: 42.25%;
+  }
+  #fueture{
+  margin-bottom: -2rem;
+  margin: 4rem 8rem;
+}
+}
+@media (max-width: 47.37rem) {
+  html{
+    font-size: 37.5%;
+  }
+   .hero-grid-container{
+  padding: 8rem 6rem 6rem;
+}
+#fueture{
+  margin-bottom: -1rem;
+  margin: 3rem 6rem;
+}
+}
+ @media (max-width: 38.75rem) {
+  html{
+    font-size: 35%;
+  }
+  header{
+    height: 100rem;
+  }
+  .hero-grid-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem 2rem 2rem;
+  height: 88rem;
+  column-gap: 10rem;
+}
+#fueture{
+  margin-bottom: -0.5rem;
+  margin: 2rem 10rem;
+}
+.hero-grid-2{
+  margin: auto;
+}
+nav{
+  padding: 1rem  0.2rem 0.2rem;
+}
+.cta-p{
+  margin: 1rem 5rem;
+}
+.fueture-grid{
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.cta-grid{
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem 2rem;
+}
+}

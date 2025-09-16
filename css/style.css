@@ -142,7 +142,7 @@ header{
 nav{
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 2rem 11rem;
   background: var(--white);
 }
@@ -245,6 +245,9 @@ nav ul{
 }
 .fueture-grid-2 h3{
   margin-bottom: 1rem;
+}
+.fueture-img{
+  width: 50rem;
 }
 .earn{
   display: flex;
