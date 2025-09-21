@@ -146,14 +146,31 @@ nav{
   padding: 2rem 11rem;
   background: var(--white);
 }
-nav ul{
+.icon{
+  display: none;
+}
+.icon-2{
+  display: none;
+  width: 20rem;
+  font-size: 8rem;
+  z-index: 9999;
+}
+.pc-bar{
   display: flex;
+  flex-direction: row;
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
   font-size: var(--p);
   font-family: var(--font-family);
   color: var(--gray);
+  padding-top: 1.4rem;
+}
+.mobile-bar{
+  display: none;
+}
+.icon-2{
+  display: none;
 }
 .country{
   font-size: var(--p);
